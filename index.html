@@ -10,17 +10,17 @@
   </head>
   <body>
 <div class="container mx-auto">
-      <div id="contenido" class="pb-10">
+      <div id="content" class="pb-10">
             <header class="bg-teal-500 text-white py-3 font-bold uppercase">
                 <h1 class="text-center">Cotiza tu seguro de coche</h1>
             </header>
-                <form class="mt-10 max-w-lg mx-auto" action="#" id="cotizar-seguro">
+                <form class="mt-10 max-w-lg mx-auto" action="#" id="quote-insurance">
                         <div class="flex items-center mb-5">
                             <label 
                               class="font-bold  uppercase mr-2 w-20"
                               for="marca"
                             >Marca:</label>
-                            <select class="flex-1 bg-gray-100 p-3 appearance-none" id="marca">
+                            <select class="flex-1 bg-gray-100 p-3 appearance-none" id="brand">
                                 <option value="">- Seleccionar -</option>
                                 <option value="1">Volkswagen</option>
                                 <option value="2">Hyundai</option>
@@ -40,18 +40,18 @@
                               <div class="flex justify-around mt-5">
                                   <div>
                                       <label class="font-bold  uppercase mr-2">Básico</label>
-                                          <input type="radio" name="tipo" value="basico" checked>
+                                          <input type="radio" name="type" value="basico" checked>
                                       </label>
                                   </div>
                                   <div>
                                       <label class="font-bold  uppercase mr-2">Completo</label>
-                                          <input type="radio" name="tipo" value="completo">
+                                          <input type="radio" name="type" value="completo">
                                       </label>
                                   </div>
                               </div>
                       </fieldset>
 
-                  <div id="cargando" class="hidden">
+                  <div id="loading" class="hidden">
                         <div class="spinner">
                           <div class="rect1"></div>
                           <div class="rect2"></div>
@@ -60,7 +60,7 @@
                           <div class="rect5"></div>
                       </div>
                   </div>
-                  <div id="resultado"></div>
+                  <div id="result"></div>
                   <div class="flex  justify-center py-4">
                       <button 
                         type="submit" 

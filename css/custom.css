@@ -17,7 +17,7 @@ body {
     text-align: center;
     color: #F4511E;
 }
-.correcto {
+.correct {
     background-color: rgb(211, 249, 187);
     border: 1px solid rgb(50, 167, 0);
     padding: 10px;
@@ -28,35 +28,35 @@ body {
 .error p {
     margin:0;
 }
-#contenido {
+#content {
     margin-top: 60px;
     background-color: white;
     -webkit-box-shadow: 0px 21px 46px -15px rgba(0,0,0,1);
     -moz-box-shadow: 0px 21px 46px -15px rgba(0,0,0,1);
     box-shadow: 0px 21px 46px -15px rgba(0,0,0,1);
 }
-.contenido-formulario {
+.form-content {
     margin-top: 30px;
 }
-#cargando {
+#loading {
     text-align: center;
 }
-#cargando img {
+#loading img {
     display: none;
     margin: 0 auto;
 }
-#resultado  {
+#result  {
     margin-bottom: 40px;
 }
-#resultado div {
+#result div {
     border: 1px solid #26C6DA;
     text-align: center;
     padding: 0  0 20px 0;
 }
-#resultado div p {
+#result div p {
     margin-bottom: 0;
 }
-#resultado div p.header {
+#result div p.header {
     background-color: #26C6DA;
     margin-bottom: 10px;
     color:white;
